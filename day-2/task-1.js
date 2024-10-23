@@ -1,7 +1,7 @@
-var car = { brand:'Toyota'
-    model = 'Corolla'
-    year:2020
+var car = { brand:'Toyota',
+    model:'Corolla',
+    year:'2020'
     };
 for (i in car){
-    console.log(car)
+    console.log(`${i}:${car[i].toUpperCase()}`)
 }
